@@ -82,7 +82,7 @@ nav a:not(:first-of-type) {
 
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
 
 }
 
