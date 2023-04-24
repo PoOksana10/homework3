@@ -1,5 +1,4 @@
-body{
-    padding: 80px 10%;
+body {
     color: black;
     font-size: 16px;
     line-height: 26px;
@@ -7,14 +6,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
+h1 {
     font-weight: 500;
     font-size: 48px;
     line-height: 79px;
     margin: 150px 0 60px;
 }
 
-h2{
+h2 {
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
@@ -22,10 +21,11 @@ h2{
     margin-bottom: 50px;
 }
 
-p{
+p {
     color: #727272;
 }
-button{
+
+button {
     padding: 19px 41px 20px;
     letter-spacing: 0.1em;
     margin-top: 65px;
@@ -34,69 +34,67 @@ button{
 
 }
 
-section{
+section {
     padding: 0 20%;
 }
 
-.section1{
+.section1 {
     padding-top: 88px;
     padding-bottom: 140px;
     background: #EEEFF1;
 
 }
- .section1-container{
-     max-width: 540px;
- }
- i{
-     font-size: 24px;
- }
 
- .section2{
-     padding-top: 112px;
-     padding-bottom: 100px;
-     background: #ffffff;
- }
- .section2 p {
-     max-width: 540px;
-     text-align: center;
-     margin: 0 auto;
+.section1-container {
+    max-width: 540px;
+}
 
- }
+i {
+    font-size: 24px;
+}
 
- nav a:not(:first-of-type){
-     margin-left: 42px;
- }
+.section2 {
+    padding: 112px 20%;
+    background: #ffffff;
+}
 
+.section2 p {
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+nav a:not(:first-of-type) {
+    margin-left: 42px;
+}
 
 .section3-container {
-    padding: 100px 0;
+    padding: 100px 20%;
     max-height: 250px;
-    max-width: 1920px;
     background-color: #34547A;
     text-align: center;
     position: relative;
 
 }
 
-.container-wrapper {
+.flex-item {
+
     display: flex;
-    justify-content: center;
+    align-items: center;
     gap: 20px;
-    flex-direction: row;
+
 }
 
 .img {
-    height: 50px;
+    max-height: 50px;
+    max-width: 50px;
 }
 
-.logo {
-    padding: 0;
-    float: left;
-}
-
-.txt {
-    float: right;
-    padding: 0 20px;
+.flex-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 
 }
 
@@ -120,41 +118,43 @@ section{
 
 }
 
-.section4{
-    max-width: 1920px;
-    height: 1004px;
+.section4 {
     text-align: center;
     position: relative;
     background: #EEEFF1;
 }
-.h2-sec4{
-    width: 403px;
-    height: 30px;
+
+.h2-sec4 {
+    padding: 100px 0 50px;
     text-align: center;
-    padding: 100px 50px;
     margin: 0 auto;
 }
-.parag{
+
+.parag {
     width: 540px;
-    height: 67px;
     text-align: center;
     margin: 0 auto;
-}
-.video{
-    margin: 50px -50px 100px;
-    width: 100%;
 
 }
 
 
-footer{
-    max-width: 1920px;
+.container-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 57px 0 100px;
+}
+
+
+footer {
+
     width: 100%;
-    height: 151px;
     background: #34547A;
-    padding: 50px 406px;
+    padding: 50px 20%;
+
 }
-.footer-h3{
+
+.footer-h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -164,7 +164,7 @@ footer{
     color: #FFFFFF;
 }
 
-.footer-p3{
+.footer-p3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
